@@ -213,12 +213,13 @@ input {
     display: flex;
     flex-flow: column;
     gap: 30px;
-    margin-right: 33px;
+    margin-right: 30px;
     background-color: var(--main-bg-color);
 }
 
 .hebergements-cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -227,7 +228,7 @@ input {
 }
 
 .hebergements a {
-    width: 33%;
+    width: 29%;
 }
 
 .hebergements-cards .card {
@@ -482,9 +483,24 @@ input {
         background-color: white;
     }
 
-    /* .hebergements-cards > #aminaCard {
-        order:6
-    } */
+    .hebergements-cards > #portCard {
+        order: 1;
+    }
+    .hebergements-cards > #aminaCard {
+        order: 6;
+    }
+    .hebergements-cards > #mouettesCard {
+        order: 3;
+    }
+    .hebergements-cards > #merCard {
+        order: 4;
+    }
+    .hebergements-cards > #canebiereCard {
+        order: 2;
+    }
+    .hebergements-cards > #panierCard {
+        order: 5;
+    }
 
     .populaires, .hebergements {
         width: 100%;
