@@ -509,4 +509,8 @@ input {
     footer p {
         width: 250px;
     }
+
+    footer h3 {
+        width: 250px;
+    }
 }
