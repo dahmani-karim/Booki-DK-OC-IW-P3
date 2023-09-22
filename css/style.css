@@ -482,6 +482,10 @@ input {
         background-color: white;
     }
 
+    /* .hebergements-cards > #aminaCard {
+        order:6
+    } */
+
     .populaires, .hebergements {
         width: 100%;
         margin: 0;
@@ -495,5 +499,14 @@ input {
     .populaires-cards, .hebergements-cards, .activites-cards{
         display: flex;
         flex-direction: column;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        width: 250px;
     }
 }
