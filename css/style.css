@@ -184,6 +184,10 @@ input {
     padding: 4px 19px 4px 19px;
 }
 
+.filtresBtn i {
+    margin-right: 9px;
+}
+
 .filtres button:hover {
     background-color: #DEEBFF;
 }
@@ -229,7 +233,7 @@ input {
 }
 
 .hebergements h3 {
-    margin: 0;
+    margin-top: 30px;
 }
 
 .hebergements a {
@@ -241,7 +245,7 @@ input {
     flex-direction: column;
     justify-content: flex-start;
     height: 207.25px;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 0 0;
 }
 
 .hebergements-cards img {
