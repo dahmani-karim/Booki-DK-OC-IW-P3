@@ -36,6 +36,11 @@ a {
     font-size: 22px;
 }
 
+.filter-title {
+    margin: 0;
+    font-size: 18px;
+}
+
 .card {
     background-color: white;
     border-radius: 20px;
@@ -90,6 +95,7 @@ nav {
 
 .menu a {
     border: solid 2px #0065fc00;
+    padding-top: 16px;
 }
 
 .menu a:hover {
@@ -427,6 +433,7 @@ input {
         display: flex;
         justify-content: center;
         border-bottom: solid 2px #F2F2F2;
+        padding: 0;
     }
 
     .menu a:hover {
@@ -516,6 +523,10 @@ input {
     .populaires-cards, .hebergements-cards, .activites-cards{
         display: flex;
         flex-direction: column;
+    }
+
+    .hebergements-cards .card {
+        margin-bottom: 0;        
     }
 
     footer {
