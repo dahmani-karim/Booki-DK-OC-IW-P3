@@ -116,7 +116,7 @@ footer div {
 }
 
 /* Info Group => Titre+Sous-titre+Formulaire+filtres+info */
-.infoBlock {
+.info-block {
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -152,7 +152,7 @@ input {
     text-align: center;
 }
 
-.btnSearch{
+.btn-search{
     width: 132px;
     font-weight: 700;
     font-size: 18px;
@@ -164,7 +164,7 @@ input {
     border-radius: 0 15px 15px 0;
 }
 
-#Loupe {
+#loupe {
     display: none;
 }
 
@@ -184,7 +184,7 @@ input {
     padding: 4px 19px 4px 19px;
 }
 
-.filtresBtn i {
+.filtres-btn i {
     margin-right: 9px;
 }
 
@@ -192,13 +192,13 @@ input {
     background-color: #DEEBFF;
 }
 
-.infoBar{
+.info-bar{
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.infoBar i {
+.info-bar i {
     display: flex;
     justify-content: center;
     padding: 10px 8px 10px 8px;
@@ -316,7 +316,7 @@ input {
 }
 
 /* Activités */
-.activitesBlock {
+.activites-block {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -446,7 +446,7 @@ input {
         border-bottom-color: var(--main-color);
     }
 
-    .infoBlock {
+    .info-block {
         padding: 0 20px 0 20px;
     }
 
@@ -458,7 +458,7 @@ input {
         border-right: none;
     }
 
-    .btnSearch{
+    .btn-search{
         width: fit-content;
         font-weight: 700;
         font-size: 18px;
@@ -469,15 +469,15 @@ input {
         border-radius: 15px;
     }
 
-    #Texte {
+    #texte {
         display: none;
     }
 
-    #Loupe {
+    #loupe {
         display: block;
     }
 
-    .filtresBtn {
+    .filtres-btn {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
@@ -495,22 +495,22 @@ input {
         background-color: white;
     }
 
-    .hebergements-cards > #portCard {
+    .hebergements-cards > #port-card {
         order: 1;
     }
-    .hebergements-cards > #aminaCard {
+    .hebergements-cards > #amina-card {
         order: 6;
     }
-    .hebergements-cards > #mouettesCard {
+    .hebergements-cards > #mouettes-card {
         order: 3;
     }
-    .hebergements-cards > #merCard {
+    .hebergements-cards > #mer-card {
         order: 4;
     }
-    .hebergements-cards > #canebiereCard {
+    .hebergements-cards > #canebiere-card {
         order: 2;
     }
-    .hebergements-cards > #panierCard {
+    .hebergements-cards > #panier-card {
         order: 5;
     }
 
