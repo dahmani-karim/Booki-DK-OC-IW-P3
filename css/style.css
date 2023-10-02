@@ -39,6 +39,7 @@ a {
 .filter-title {
     margin: 0;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .card {
@@ -240,7 +241,7 @@ input {
     flex-wrap: wrap;
 }
 
-.hebergements h3 {
+.hebergements h4 {
     margin-top: 30px;
 }
 
