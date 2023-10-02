@@ -153,12 +153,12 @@ form{
     color: white;
 }
 
-input {
+#recherche {
     width: 195px;
     font-size: 18px;
     font-weight: 700;
     border: solid 1px #F2F2F2;
-    text-align: center;
+    text-indent: 24px;
 }
 
 .btn-search{
@@ -468,7 +468,7 @@ input {
         display: flex;
     }
 
-    input {
+    #recherche {
         border-right: none;
     }
 
