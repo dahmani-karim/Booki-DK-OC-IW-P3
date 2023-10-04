@@ -508,22 +508,22 @@ form{
         background-color: white;
     }
 
-    .hebergements-cards > #port-card {
+    #port-card {
         order: 1;
     }
-    .hebergements-cards > #amina-card {
+    #amina-card {
         order: 6;
     }
-    .hebergements-cards > #mouettes-card {
+    #mouettes-card {
         order: 3;
     }
-    .hebergements-cards > #mer-card {
+    #mer-card {
         order: 4;
     }
-    .hebergements-cards > #canebiere-card {
+    #canebiere-card {
         order: 2;
     }
-    .hebergements-cards > #panier-card {
+    #panier-card {
         order: 5;
     }
 
